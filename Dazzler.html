@@ -1,0 +1,485 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>umar Farouq Khamis | Dazzling Brands</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background: #fff;
+      border-bottom: 2px solid #eee;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: #ff4d4f;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    .hero {
+      padding: 100px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, black, #007bff);
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #fff;
+      color: #6e8efb;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #eee;
+    }
+
+    .about, .services, .contact {
+      padding: 60px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .about h2, .services h2, .contact h2 {
+      font-size: 2rem;
+      color: #6e8efb;
+      margin-bottom: 0px;
+    }
+
+    .services ul {
+      list-style: disc inside;
+      padding-left: 10px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background: #f9f9f9;
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
+      nav a {
+        margin-left: 10px;
+      }
+    }
+    .portfolio {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.portfolio h2 {
+  font-size: 2rem;
+  color: #6e8efb;
+  margin-bottom: 20px;
+}
+
+.work-gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.work-gallery img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.work-gallery img:hover {
+  transform: scale(2.05);
+}
+.about-box {
+  border: 2px solid #6e8efb;
+  background-color: #f0f4ff;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.about {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.portfolio {
+  margin-top: 20px<img src="" alt="">;
+  padding-top: 0;
+}
+.testimonials {
+  background-color: #f8f9ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  color: #6e8efb;
+  margin-bottom: 30px;
+}
+
+.testimonial-box {
+  background: #fff;
+  border-left: 5px solid #6e8efb;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 700px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+
+.testimonial-box p {
+  font-style: italic;
+  color: #333;
+  margin-bottom: 10px;
+}
+.testimonial-box h4 {
+  color: #666;
+  font-weight: normal;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: #fff;
+}
+html {
+  scroll-behavior: smooth;
+}
+.logo-img {
+  height: 70px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px; 
+  height: 60px;
+  background: #fff;
+  border-bottom: 2px solid #eee;
+}
+.services-box {
+  background-color: #000;       
+  color: #fff;            
+  padding: 30px;
+  border-radius: 12px;           
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.services-box ul {
+  list-style: disc inside;
+  padding-left: 0;
+}
+.contact-box {
+  background-color: #00008b;
+  border: 2px solid #000000; 
+  padding: 30px;
+  border-radius: 12px;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+.uk {
+  height: 300px;
+  align-items: center;
+}
+.logo {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.uk {
+  height: 300px;
+  display: inline-block;
+}
+.hub{
+    color: #000000;
+    margin-top: -75px;
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 20px black;
+  border-radius: 10px;
+}
+
+.lightbox:target {
+  display: flex;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* ==== PRELOADER STYLES ==== */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #000000, #007bff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 9999;
+  transition: opacity 0.8s ease;
+  overflow: hidden;
+}
+
+.loader-box {
+  text-align: center;
+}
+
+.loader-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 20px;
+  animation: bounce 2s infinite;
+}
+
+.loader-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+  animation: fadeIn 2s ease-in-out infinite alternate;
+}
+
+.ring-loader {
+  width: 50px;
+  height: 50px;
+  border: 6px solid #ffffff;
+  border-top: 6px solid #00d9ff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+/* Animations */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0.3; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1.05); }
+}
+
+
+  </style>
+</head>
+<body>
+   <div id="preloader">
+  <div class="loader-box">
+    <img src="LOGOTY.png" alt="Dazzling Logo" class="loader-logo">
+    <h1 class="loader-text">DAZZLING HUB</h1>
+    <div class="ring-loader"></div>
+  </div>
+</div> 
+ <header class="navbar">
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="logo">
+  <img class="logo-img" src="LOGOTY.png" alt="Dazzling Logo">
+</div>
+  </div>
+</header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>DAZZLING HUB </h1>
+      <h2>(Dazzling graphics/Dazzling fx)</h2>
+      
+      <p>Professional Graphic Designing & Forex Trading</p>
+      <a href="#contact" class="btn">Let’s Connect</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    
+        <a href="#fullpic">
+  <img src="picture.jpg" alt="picture" style="width: 70px; height: 110px; cursor: pointer;">
+</a>
+
+<div class="lightbox" id="fullpic">
+  <a href="#" class="close-btn">&times;</a>
+  <img src="picture.jpg" alt="Full Picture">
+</div>
+ <a href="#fullpic2">
+  <img src="umar.jpg" alt="umar" style="width: 70px; height: 110px; margin-left: 10px; cursor: pointer;">
+</a>
+
+<div class="lightbox" id="fullpic2">
+  <a href="#" class="close-btn">&times;</a>
+  <img src="umar.jpg" alt="Full umar Picture">
+</div>
+    
+</div>
+    <p class="about-box">"I am umar farouq khamis AKA (U Kay Dazzler), founder of <strong>Dazzling Graphic </strong> and <strong>Dazzling Forex</strong>. With years of experience in both creative design and financial markets, I bring a unique blend of artistic vision and analytical strategy. I have helped individuals and businesses transform their brand identities and master the skills to succeed in forex trading. Whether you're looking to elevate your brand visually or understand the dynamics of currency markets, I'm here to help you thrive."</p>
+  </section>
+
+
+           <div class="logo">
+    <img src="LOGOTY.png" alt="Dazzling Logo" class="uk"> 
+    <div class="hub">
+    <h1>DAZZLING HUB</h1>          
+    </div>
+  </div>
+  <section class="portfolio">
+  <h2>Work</h2>
+  <div class="work-gallery">
+    <img src="logo1.jpg" alt="Design Work 1">
+    <img src="logo2.jpg" alt="Design Work 2">
+  </div>
+</section>
+<section class="testimonials">
+  <h2>Testimonials</h2>
+  <div class="testimonial-box">
+    <p>“Dazzler's designs gave my brand a professional edge. He understood exactly what I needed!”</p>
+    <h4>- Aisha M., Business Owner</h4>
+  </div>
+
+  <div class="testimonial-box">
+    <p>“His forex trading mentorship helped me finally start earning consistently. Highly recommended!”</p>
+    <h4>- Sauban Fresher </h4>
+  </div>
+  <div class="testimonial-box">
+      <p>“Dazzler's work is superb, no cap!”</p>
+      <h4>- Abbas Tweezer</h4>
+      </div>
+      <div class="testimonial-box">
+          <p>“far far Dazzler's hub, Joining Dazzling Forex was the best decision I made in 2024. Omar’s transparent, disciplined approach gave me real confidence. No hype—just results!”</p>
+          <h4>-AMA Rimi</h4>
+      </div>
+</section>
+<section id="services" class="services">
+  <h2>Services</h2>
+  <div class="services-box">
+    <ul>
+      <li><strong>Graphic Design:</strong> Logos, banners, flyers, social media kits, and more</li>
+      <li><strong>Forex Trading:</strong> One-on-one mentorship, signals, strategy building</li>
+      <li><strong>Creative Consulting:</strong> Brand development and design strategy</li>
+      <li><strong>Dazzle:</strong> Dazzling, chilling, flexing e.t.c.😎</li>
+    </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-box">
+    <p>Ready to take your brand or trading journey to the next level? Reach out now.</p>
+    <p>Email: <a href="mailto:ukaydazzler@gmail.com">ukaydazzler@gmail.com</a></p>
+    <p>Phone: 09020275144</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 umar farouq khamis— All Rights Reserved</p>
+  </footer>
+ <script>
+  window.addEventListener('load', function () {
+    setTimeout(() => {
+      const preloader = document.getElementById('preloader');
+      preloader.style.opacity = '0';
+      setTimeout(() => {
+        preloader.style.display = 'none';
+      }, 800);
+    }, 3000); // Delay in milliseconds (3 seconds)
+  });
+</script>
+</body>
+</html>
